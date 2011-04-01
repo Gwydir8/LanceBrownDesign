@@ -6,7 +6,11 @@
   </head>
   <body>
     <div class="container">
-      <%= debug(params) if Rails.env.development? %>
+    <% if Rails.env.development? %>
+      <div class="notice span-24 first last">
+        <%= debug(params) if Rails.env.development? %>
+      </div>
+    <% end %>
       <%= render 'layouts/header' %>
       <%= yield %>
     </div>
