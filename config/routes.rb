@@ -1,4 +1,12 @@
 LanceBrownDesign::Application.routes.draw do
+  get "users/new"
+
+  root :to => "pages#home"
+
+  match '/home', :to => 'pages#home'
+  match '/profile', :to => 'pages#profile'
+  match '/portfolio', :to => 'pages#portfolio'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,182 @@
+/* custom.css */
+@charset "UTF-8";
+body {
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+   
+	width: 1008px; 
+	background: #FFFFFF;
+	text-align: left; 
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: 25px;
+	position: relative;
+	height: 768px;
+	margin-bottom: 0px;
+}
+
+.oneColFixCtr #lbdLogo  {
+	position: relative;
+	left: 10px;
+	top: 25px;
+	height: 25px;
+	width: 235px;
+}
+.oneColFixCtr #navigation  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+	position: absolute;
+	left: 295px;
+	width: 70px;
+	height: 138px;
+	top: 10px;
+	text-align: left;
+	margin-top: 20px;
+	line-height: 18px;
+	overflow: hidden;
+  list-style-type: none;
+}
+.oneColFixCtr #next {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #666;
+	text-align: left;
+	height: 138px;
+	width: 250px;
+	margin-top: 20px;
+	position: absolute;
+	top: 10px;
+	left: 411px;
+}
+.oneColFixCtr #mainHeadline  {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 32px;
+	color: #b3b3b3;
+	position: absolute;
+	left: 336px;
+	top: 166px;
+	width: 674px;
+	height: 600px;
+	line-height: 36px;
+	font-weight: lighter;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.oneColFixCtr #sidebar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #666;
+	width: 192px;
+	position: relative;
+	top: 168px;
+	left: 10px;
+	line-height: 22px;
+}
+.orangeType {
+	color: #f25d23;
+}
+.oneColFixCtr #wideSidebar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #666;
+	width: 300px;
+	position: relative;
+	left: 10px;
+	top: 168px;
+}
+.more {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+h2 {
+	font-size: 32px;
+	line-height: 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+p {
+	font-size: 24px;
+	line-height: 30px;
+}
+.lightText {
+	color: #b3b3b3;
+}
+.darkText {
+	color: #666666;
+}
+.darkUnderlinedText {
+	color: #666;
+	text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#Profile li {
+	font-size: 24px;
+	line-height: 18px;
+}
+nav li{
+  font-size: 14px;
+  line-height: 18px;
+}
+li #ContactInfo {
+	font-size: 24px;
+	line-height: 30px;
+}
+a:link {
+	text-decoration: none;
+	color: #b3b3b3;
+}
+a:visited {
+	text-decoration: none;
+	color: #b3b3b3;
+}
+a:hover {
+	text-decoration: none;
+	color: #f25d23;
+}
+a:active {
+	text-decoration: none;
+	color: #666;
+}
+H1 ,a#Logo{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+
+	text-decoration: none;
+
+  margin: 0;
+  padding: 0;
+}
+a#Orange{
+	color: #f25d23;
+}
+a#Gray {
+	color: #666666;
+}
+header {
+  padding-top: 65px;
+  padding-bottom: 175px;
+}
+#Profile {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#CompanyList {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666;
+}
