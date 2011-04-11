@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+<div class="first span-6 prepend-top description">
+  <%= @project.description %> <br />
+  <%= link_to 'Edit', edit_project_path(@project) %> |
+  <%= link_to 'Back', :action => 'grid' %>
+  <% project = @project.next %>
+  <% if project %>
+    <% while !project.image %>
+      <% project = project.next %>
+    <% end %>
+  <% else %>
+    <% project = Project.find(1) %>
+  <% end %>
+  | <%= link_to('Next', project)%>
+</div>
+<div class="span-15 prepend-3 last">
+  <%= image_tag "#{@project.image}", :alt => "#{@project.name}" %>
+</div>

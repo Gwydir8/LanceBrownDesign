@@ -10,15 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110401130451) do
+ActiveRecord::Schema.define(:version => 20110401153713) do
 
-  create_table "users", :force => true do |t|
+  create_table "projects", :force => true do |t|
     t.string   "name"
-    t.string   "email"
+    t.string   "tagline"
+    t.text     "description"
+    t.string   "image"
+    t.string   "thumbnail"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  add_index "users", ["email"], :name => "index_users_on_email", :unique => true
 
 end

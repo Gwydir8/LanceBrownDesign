@@ -80,6 +80,7 @@ img {
 	top: 168px;
 	left: 10px;
 	line-height: 22px;
+
 }
 .orangeType {
 	color: #f25d23;
@@ -127,7 +128,7 @@ ul {
 }
 #Profile li {
 	font-size: 24px;
-	line-height: 18px;
+	line-height: 26px;
 }
 nav li{
   font-size: 14px;
@@ -170,8 +171,8 @@ a#Gray {
 	color: #666666;
 }
 header {
-  padding-top: 65px;
-  padding-bottom: 175px;
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 #Profile {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -179,4 +180,12 @@ header {
 #CompanyList {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #666;
+}
+
+.description {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #666;
+	width: 192px;
+	line-height: 22px;
 }

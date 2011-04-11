@@ -1,0 +1,17 @@
+<div class="span-7 prepend-1 first" id="CompanyList">
+  A few of the taglines I've developed for my clients:
+</div>
+<div class="span-15 prepend-1 last" id="Profile">
+  <% Project.all.each do |project| %>
+    <% if project.tagline %>
+      <p>
+      <span class="orangeType">
+        <%= project.tagline %>
+      </span> 
+      <br /> 
+      <%= project.name %> <br /> 
+      <br /> 
+      </p>
+    <% end %>
+  <% end %>
+</div>

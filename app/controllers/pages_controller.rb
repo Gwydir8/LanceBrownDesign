@@ -11,4 +11,7 @@ class PagesController < ApplicationController
   def project
   end
 
+  def taglines
+  end
+
 end
