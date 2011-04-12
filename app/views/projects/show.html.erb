@@ -3,8 +3,8 @@
   <%= @project.description %> <br />
   <%= link_to 'Edit', edit_project_path(@project) %> |
   <%= link_to 'Back', :action => 'grid' %>
-  <% if @project.next.nil? %>
-    <% project = @project.next %>
+  <% project = @project.next %>
+  <% unless project.nil? %>
     <% while !project.image %>
       <% project = project.next %>
     <% end %>
